@@ -34,8 +34,8 @@ header {
     background-position: center;
     background-size: contain;
     margin: 20px auto;
-    width: 1320px;
-    height: 600px;
+    width: 1150px;
+    height: 550px;
 }
 
 header>div {
@@ -70,7 +70,7 @@ header>div>h2 {
 main section {
     margin: 100px auto;
     padding: 20px 50px;
-    width: 1320px;
+    width: 1150px;
 }
 
 /* discount section */
@@ -109,9 +109,9 @@ main section {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    width: 1320px;
-    height: 600px;
+    width: 1150px;
     padding: 0px;
+    overflow: hidden;
 }
 
 .party-join>div {
@@ -122,7 +122,7 @@ main section {
     flex-direction: column;
     align-items: start;
     gap: 10px;
-    padding: 100px ;
+    padding: 100px;
 }
 
 .party-join>div>h3 {
@@ -157,7 +157,7 @@ main section {
 /* details section */
 
 .details-section {
-    width: 1320px;
+    width: 1150px;
     height: 482px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     display: flex;
@@ -184,17 +184,13 @@ main section {
 
 /* offer section */
 .offer-section {
-
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
     gap: 50px;
-    padding: 10px 50px;
+    padding: 20px 0px;
 }
 
-.offer-section>div:nth-child(1) {
-    width: 393px;
-}
 
 .offer-section>div:nth-child(1)>.heading {
     color: #F00;
@@ -251,7 +247,7 @@ main section {
     align-items: center;
     gap: 20px;
     text-align: center;
-    padding: 10px 50px;   
+    padding: 20px 0px;
 }
 
 .sale-section>.sale-heading {
@@ -282,8 +278,8 @@ main section {
 
     justify-content: space-evenly;
     align-items: center;
-    max-width: 100%;
-    padding: 10px 50px;
+
+    margin: 10px auto;
     background-image: url('../resources/Rectangle\ 2.png');
     background-repeat: no-repeat;
     background-size: contain;
@@ -295,7 +291,7 @@ main section {
 
 .sale-section>.sale-banner>img:nth-child(3) {
     margin-top: -100px;
-    margin-left: 65px;
+
     text-align: right;
     width: 359px;
 
@@ -309,11 +305,14 @@ main section {
     z-index: 1;
     width: 250px;
 }
-.portfolio-section{
+
+.portfolio-section {
     display: flex;
     flex-direction: column;
     align-items: start;
     gap: 20px;
+    
+    padding: 0px;
 }
 
 .portfolio-section>.portfolio-heading {
@@ -341,11 +340,13 @@ main section {
     margin: 0px;
     text-align: left;
 }
-.portfolio-section> .portfolio-items{
+
+.portfolio-section>.portfolio-items {
     display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 20px;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
 }
-.portfolio-section> .portfolio-items > img{
-    width: 400px;
+
+.portfolio-section>.portfolio-items>img {
+    width: 370px;
 }
