@@ -50,6 +50,8 @@ main section {
     margin: 100px auto;
 }
 
+/* discount section */
+
 .discount-section {
     display: flex;
     flex-direction: column;
@@ -76,4 +78,57 @@ main section {
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
+}
+
+/* party join section */
+.party-join {
+    background-image: url('../resources/Vectorrr.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1320px;
+    height: 600px;
+}
+
+.party-join>div {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    padding: 100px;
+}
+
+.party-join>div>h3 {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    width: 642px;
+}
+
+.party-join>div>p {
+    width: 697px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.party-join>div>button {
+    color: #FFF;
+    background-color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
 }
