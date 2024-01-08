@@ -359,7 +359,7 @@ main section {
     background: #000;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
-    padding:100px;
+    padding: 100px;
 }
 
 .subscribe-section>h3 {
@@ -388,7 +388,7 @@ main section {
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
-    border: 1px solid #F00;
+    border: none;
     outline: none;
 }
 
@@ -403,4 +403,60 @@ main section {
     margin-left: -100px;
     border-radius: 0px 50px 50px 0px;
 
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+    margin-top: 100px;
+    background: #070211;
+    color: white;
+
+}
+
+footer>.address {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid  rgba(255, 255, 255, 0.15);
+    padding-bottom: 20px;
+}
+
+footer>.address>p {
+    width: 375px;
+}
+
+footer>.address>.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer>.address>.contact>div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+footer > .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 0px;
+    border-bottom: 1px solid  rgba(255, 255, 255, 0.15);
+
+}
+
+footer > .copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+footer > .copyright > button {
+    background-color: #F00;
+    color: white;
 }
