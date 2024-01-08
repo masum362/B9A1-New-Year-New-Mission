@@ -19,7 +19,7 @@
     border-radius: 5px;
     cursor: pointer;
     border: none;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.3s ease;
 }
 
 .btn:hover {
@@ -345,11 +345,27 @@ main section {
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 20px;
+    
 }
 
 .portfolio-section>.portfolio-items>img {
     width: 370px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.3s ease;
 }
+
+
+.portfolio-section>.portfolio-items>img:hover{
+   border: 1px solid #F00;
+   border-radius: 20px;
+   
+   -ms-transform: scale(1.05); /* IE 9 */
+   -webkit-transform: scale(1.05); /* Safari 3-8 */
+   transform: scale(1.05); 
+   overflow: hidden;
+}
+
 
 .subscribe-section {
     display: flex;
@@ -408,7 +424,7 @@ main section {
 footer {
     display: flex;
     flex-direction: column;
-    padding: 50px 100px;
+    padding:100px;
     margin-top: 100px;
     background: #070211;
     color: white;
@@ -448,6 +464,10 @@ footer > .social {
     border-bottom: 1px solid  rgba(255, 255, 255, 0.15);
 
 }
+footer > .social > img {
+    cursor: pointer;
+    overflow: hidden;
+}
 
 footer > .copyright {
     display: flex;
@@ -459,4 +479,5 @@ footer > .copyright {
 footer > .copyright > button {
     background-color: #F00;
     color: white;
+    
 }
